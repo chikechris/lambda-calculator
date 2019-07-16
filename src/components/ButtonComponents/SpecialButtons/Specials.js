@@ -1,11 +1,12 @@
 import React from "react";
-
+import { specials } from "/Users/cchik/lambdaSchool/lambda-calculator/src/data";
 //import any components needed
 
 //Import your array data to from the provided data file
 
 const Specials = () => {
   // STEP 2 - add the imported data to state
+  const [specials, setSpecials] = useState(specials);
 
   return (
     <div>

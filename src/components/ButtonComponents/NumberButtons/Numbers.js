@@ -1,4 +1,6 @@
 import React from "react";
+import { numbers } from "/Users/cchik/lambdaSchool/lambda-calculator/src/data";
+import NumberButton from "./NumberButton";
 
 //import any components needed
 
@@ -6,6 +8,7 @@ import React from "react";
 
 const Numbers = () => {
   // STEP 2 - add the imported data to state
+  const [numbers, setNumber] = useState(numbers);
   return (
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
