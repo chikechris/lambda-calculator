@@ -1,31 +1,25 @@
-//import React from "react";
-//import { specials } from "/Users/cchik/lambdaSchool/lambda-calculator/src/data";
+import React from "react";
+import SpecialButton from "./SpecialButton";
+import { specials } from "../../../data";
+
 //import any components needed
 
 //Import your array data to from the provided data file
 
-import React, { useState } from "react";
-import { specials as specialsArr } from "../../../data";
-import SpecialButton from "./SpecialButton";
-
-const Specials = props => {
+const Specials = () => {
   // STEP 2 - add the imported data to state
-  let [specials] = useState(specialsArr);
+
+  // Checking if specials can be imported into Specials.js
+  // console.log(specials); //specials data was imported successfully.
 
   return (
-    <div className="specials-container">
-      {specials.map((special, i) => {
-        return (
-          <SpecialButton
-            key={i}
-            value={special}
-            onClickHandler={props.onClickHandler}
-          />
-        );
-      })}
+    <div className="special-container">
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
+      {specials.map(special => (
+        <SpecialButton special={special} />
+      ))}
     </div>
   );
 };
