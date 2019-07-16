@@ -1,0 +1,82 @@
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: #c01335;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.App {
+  display: flex;
+}
+
+.spNumopr {
+  width: 90%;
+}
+
+.number-container {
+  width: 100%;
+}
+
+.number-button {
+  height: 90px;
+  width: 90px;
+  margin: 5px;
+
+  background-color: rgb(0, 0, 105);
+  color: white;
+  font-size: 30px;
+  box-shadow: #420108 0px 5px;
+  border-radius: 45%;
+}
+
+.operator-container {
+  width: 100px;
+  margin: 10px 10px 10px 0;
+}
+
+.operator-button {
+  height: 90px;
+  width: 90px;
+  margin: 5px;
+
+  box-shadow: #420108 0px 5px;
+  background-color: rgb(5, 37, 48);
+  color: white;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+.special-container {
+  width: 100%;
+  margin: 10px;
+}
+
+.special-button {
+  height: 90px;
+  width: 90px;
+  margin: 5px;
+  background-color: rgb(0, 0, 105);
+  box-shadow: #420108 0px 5px;
+  color: white;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 90%;
+  height: 100px;
+  background-color: rgb(12, 81, 102);
+  border-radius: 40px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.display h2 {
+  font-size: 40px;
+  margin-right: 20px;
+}
