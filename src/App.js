@@ -18,7 +18,7 @@ function App() {
   // Don't forget to pass the functions (and any additional data needed) to the components as props
 
   return (
-    <div className="container">
+    <div className="app-Container">
       <Logo />
       <Display />
 
