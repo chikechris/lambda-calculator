@@ -8,7 +8,7 @@ import { numbers } from "../../../data";
 
 const Numbers = () => {
   // Small check to see if numbers is imported into Numbers.js
-  console.log(numbers);
+
   // STEP 2 - add the imported data to state
   return (
     <div className="number-container">

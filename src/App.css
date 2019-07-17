@@ -1,5 +1,5 @@
 .app-Container {
-  max-width: 500px;
+  max-width: 420px;
   margin: auto;
   background: #c01335;
   padding: 30px;
@@ -32,14 +32,13 @@
 
 .operator-container {
   width: 100px;
-  margin: 10px 10px 10px 0;
+  margin: 10px 10px 10px 10px;
 }
 
 .operator-button {
   height: 90px;
   width: 90px;
   margin: 5px;
-
   box-shadow: #420108 0px 5px;
   background-color: rgb(5, 37, 48);
   color: white;
